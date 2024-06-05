@@ -2,7 +2,7 @@
 Olá!
 
 Esta é a segunda etapa do desafio da disciplina Laboratório I do curso de Análise e Desenvolvimento de Sistemas (Unisinos 2024/01).
-O desafio consiste em criar um gerenciador de lojas para um shopping center em Java.<br>
+O desafio consiste em criar um gerenciador de lojas para um shopping center em Java.
 
 A segunda etapa contempla a associação entre as classes já criadas, bem como a adaptação e criação de métodos para essa nova realidade.
 Também foi criada a classe Principal com o método main, com um menu para a criação de lojas e de produtos.
