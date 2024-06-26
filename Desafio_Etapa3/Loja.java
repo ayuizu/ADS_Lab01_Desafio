@@ -22,7 +22,7 @@ public class Loja
         this.quantidadeFuncionarios=quantidadeFuncionarios;
         this.salarioBaseFuncionario=salarioBaseFuncionario;
     }
-    //Só nome e qtd funcionarios - Etapa1
+    ////Só nome e qtd funcionarios - Etapa1
     public Loja(String nome,int quantidadeFuncionarios){
         this.nome=nome;
         this.quantidadeFuncionarios=quantidadeFuncionarios;
@@ -36,7 +36,7 @@ public class Loja
         this.endereco=endereco;
         this.dataFundacao= dataFundacao;
     }
-    //Só nome, qtd funcionarios, end e data - Etapa2
+    ////Só nome, qtd funcionarios, end e data - Etapa2
     public Loja(String nome,int quantidadeFuncionarios,Endereco endereco, Data dataFundacao){
         this.nome=nome;
         this.quantidadeFuncionarios=quantidadeFuncionarios;
@@ -79,7 +79,7 @@ public class Loja
     //Método toString()
 
     public String toString(){
-        return "\nNome da loja: " + this.nome + "\nQuantidade de funcionários: " + this.quantidadeFuncionarios + "\nSalário base dos funcionários: R$" + this.salarioBaseFuncionario + "\nEndereço: " + this.endereco.toString() + "\nData de fundação: " + this.dataFundacao.toString();
+        return "\nNome da loja: " + this.nome + "\nQuantidade de funcionários: " + this.quantidadeFuncionarios + "\nSalário base dos funcionários: R$ " + this.salarioBaseFuncionario + "\nEndereço: " + this.endereco.toString() + "\nData de fundação: " + this.dataFundacao.toString();
     }
     //Método gastos com salário
     public double gastosComSalario(){
@@ -100,10 +100,11 @@ public class Loja
             return ' ';
     }
     //Teste toString
+    /**
     public static void main(String[] args){
         Endereco endereco = new Endereco("Rua dos Andradas","Porto Alegre","RS","Brasil","90000-100","1234","Andar Térreo");
         Data data = new Data(16,5,2018);
         Loja loja = new Loja("Paquetá",9,2189.90, endereco,data);
         System.out.println(loja.toString());
-    }
+    }*/
 }
